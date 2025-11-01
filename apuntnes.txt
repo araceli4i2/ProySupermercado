@@ -35,4 +35,15 @@ despues creasserializers por app
 -en los urls de cada app tambien se registran los urls
 -Esto se llama arquitectura por servicios o API service layer y se usa para separar la lógica de llamadas al backend del resto del frontend.
 
+GIT
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/raquelSerrano/proyecto-final-SM.git
+git push -u origin master
 
+git push origin main --force 
+--para forzar el push xd
+
+git add frontendSM/supermercado-react/src/components/productos/ProductoForm.jsx
+--para añadir un archivo especificoa git
