@@ -1,0 +1,38 @@
+psql -U postgres -d proy_supermercado
+-comando para ver si existe un usuario en tu base de datos y te pide contraseña
+si logras conectar con la base de datos de sale "postgre#-"
+
+pip install psycopg2-binary
+-para instalar el paquete de psycopg2-binary
+
+python manage.py makemigrations
+python manage.py migrate
+-para crear la base de datos y crear las tablas
+
+python manage.py createsuperuser
+-para crear un usuario con el que podrás loguearte
+usuario: raquelserrano
+contraseña: infokell18
+email: raquelaraceliserranomamani@gmail.com
+
+python manage.py runserver
+-para ver el sitio en tu navegador
+
+-para la inserccion crea un archivo en el directorio de proyectos y llamado inserccion.py
+-y en el mismo archivo poner lo siguiente:
+from sucursales.inserccion import *
+-insertar en el archivo inserccion.py las funciones que quieras ejecutar
+-para ejecutar la inserccion entra al powershell interactivo:
+python manage.py shell
+-y en el shell esriba:exec(open("apps/core/populate_initial_data.py").read())
+-luego al salir entre ala ruta y ya estaran insertadas las tablas
+
+pip install djangorestframework
+-es para instalar djangorestframework
+
+despues creasserializers por app
+
+-en los urls de cada app tambien se registran los urls
+-Esto se llama arquitectura por servicios o API service layer y se usa para separar la lógica de llamadas al backend del resto del frontend.
+
+

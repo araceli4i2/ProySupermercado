@@ -1,0 +1,12 @@
+<!-- apps/inventario/templates/inventario/producto_list.html -->
+<h1>Lista de Productos</h1>
+<a href="{% url 'producto_create' %}">Crear Producto</a>
+<ul>
+{% for producto in productos %}
+    <li>
+        {{ producto.nombre_producto }} - ${{ producto.precio_unitario }} - Stock: {{ producto.stock }}
+        <a href="{% url 'producto_update' producto.id %}">Editar</a>
+        <a href="{% url 'producto_delete' producto.id %}">Eliminar</a>
+    </li>
+{% endfor %}
+</ul>

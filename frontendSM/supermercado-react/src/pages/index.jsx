@@ -1,0 +1,15 @@
+export { default as ProductosPage } from "./ProductosPage";
+export { default as SucursalesPage } from "./SucursalesPage";
+export { default as RolPage } from "./RolPage";
+export { default as PersonasPage } from "./PersonasPage";
+export { default as ClientesPage } from "./ClientesPage";
+export { default as ProveedoresPage } from "./ProveedoresPage";
+export { default as InventariosPage } from "./InventariosPage";
+export { default as HistorialPage } from "./HistorialPage";
+export { default as ComprasPage } from "./ComprasPage";
+export { default as EmpleadosPage } from "./EmpleadosPage";
+export { default as DetCompraPage } from "./DetCompraPage";
+export { default as GerentesPage } from "./GerentesPage";
+export { default as CategoriasPage } from "./CategoriasPage";
+export { default as DetVentaPage } from "./DetVentaPage";
+export { default as VentaPage } from "./VentaPage";
