@@ -20,11 +20,11 @@ export default function ProductoForm({ onCreate }) {
       setNombre("");
       setPrecio("");
       setStock("");
-      if (onCreate) onCreate(); // Refresca la lista si se pasa función
+      if (onCreate) onCreate(); 
       alert("Producto creado exitosamente ");
     } catch (error) {
       console.error(error);
-      alert("Error al crear el producto ");
+      alert("no se pudo crear el producto ");
     }
   };
 
